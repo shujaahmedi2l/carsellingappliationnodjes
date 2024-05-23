@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "CarSellingApplication"
+  description: "Sell Cars any place"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/CarSellingApplication"
+    argocd/app-name: "CarSellingApplication"
+  links:
+    - url: https://car-selling-application.onexidp.com.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
